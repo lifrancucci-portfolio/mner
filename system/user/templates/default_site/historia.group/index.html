@@ -1,0 +1,64 @@
+{layout="layouts/_wrapper"}
+
+<div class="historia">
+  <div class="hero">
+
+    <img class="hero-logo" src="{path='images/uploads/logos/logo-mner.png'}" alt="Placeholder Logo" />
+
+    <h1 class="hero-title h1">Historia MNER</h1>
+
+    <p class="hero-subtitle">
+      Más de 20 años de <br>
+      Ocupar - Resistir - Producir
+    </p>
+
+  </div>
+
+{exp:channel:entries channel="historia"}
+
+{historia_evento orderby="he_anio" sort="desc"}
+  {if historia_evento:count == 1}
+  <div class="timeline">
+  {/if}
+    <div class="historia-header">
+
+      <div class="historia-circle"></div>
+      <div class="historia-line"></div>
+
+      {if historia_evento:he_anio}
+      <p class="anio">
+        {historia_evento:he_anio}
+      </p>
+      {/if}
+
+      {if historia_evento:he_titulo}
+      <h3 class="historia-titulo">
+        {historia_evento:he_titulo}
+      </h3>
+      {/if}
+
+    </div>
+
+    <div class="historia-body">
+
+    {if historia_evento:file}
+      {historia_evento:file}
+      <img class="historia-img" src="{url}" alt="{title}">
+      {/historia_evento:file}
+    {/if}
+
+    {if historia_evento:he_descripcion}
+      <div class="historia-descripcion">
+        {historia_evento:he_descripcion}
+      </div>
+    {/if}
+
+    </div>
+
+  {if historia_evento:count == historia_evento:total_rows}
+  </div>
+  {/if}
+{/historia_evento}
+{/exp:channel:entries}
+
+</div>

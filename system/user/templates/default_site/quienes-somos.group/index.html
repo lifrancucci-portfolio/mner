@@ -1,0 +1,66 @@
+{layout="layouts/_wrapper"}
+
+{exp:channel:entries channel="quienes_somos" limit=1}
+
+<div class="quienes-somos">
+
+  <div class="hero">
+    <div class="hero-background"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-panels">
+
+      <div class="panel panel-left">
+
+        <h1 class='hero-title'>
+          <!-- {if encabezado}
+            {encabezado}
+          {if:else}
+            {title}
+          {/if} -->
+          Quienes <br> somos
+        </h1>
+
+        <img src="{path='/images/uploads/logos/ico-mner.png'}" alt="Placeholder Logo MNER" />
+      </div>
+
+      <div class="panel panel-right">
+        <div class="intro-text">
+          {introduccion}
+        </div>
+      </div>
+
+      <!-- <div class="page-intro">
+
+
+      </div> -->
+    </div>
+  </div>
+{/exp:channel:entries}
+
+<!-- BLOQUE HISTORIA MNER -->
+{exp:channel:entries channel="historia" limit="1"}
+  <div class="block-historia">
+    <a href="{path='/historia'}">
+      <p class="h3">{title}</p>
+    </a>
+  </div>
+{/exp:channel:entries}
+
+<!-- GALERÍA DE FOTOS -->
+  <div class="galeria">
+  {exp:channel:entries channel="galeria" dynamic="no" orderby="date" sort="desc"}
+
+  {foto_galeria}
+    <div class="foto">
+    {foto_galeria:file}
+      <img class="foto-img" src="{url:thumbnail}" alt="{title}"/>
+    {/foto_galeria:file}
+      <p class="foto-tag">{foto_galeria:fg_titulo}</p>
+    </div>
+  {/foto_galeria}
+
+  {/exp:channel:entries}
+  </div>
+
+</div>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>MNER - Movimiento Nacional de Empresas Recuperadas</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{path='/css/reset.css'}">
+    <link rel="stylesheet" href="{path='/css/main.css'}">
+
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/3119857d19.js" crossorigin="anonymous"></script>
+
+    <!-- JS -->
+    <script src="{path='/js/main.js'}"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        contentLoaded();
+      });
+    </script>
+
+
+  </head>
+
+  <body>
+    <div id="container" class="container">
+
+    <!-- HEADER -->
+    <header id="header" class="header">
+
+      <a class="logo" href="{path='/'}">
+        <img src="{path='/images/uploads/logos/logo-mner-b.png'}" alt="Logo MNER">
+      </a>
+
+      <nav class="main-nav">
+
+        <i id="menu-icon" class="menu-icon fa-solid fa-bars"></i>
+
+        <div id="nav-menu" class="nav-menu">
+          {par_menu_links_list}
+        </div>
+
+      </nav>
+
+    </header>
+
+      <!-- CONTENIDO DE LA PÁGINA -->
+      {layout:contents}
+
+    </div>
+  </body>
+</html>
