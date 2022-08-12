@@ -9,9 +9,10 @@ function contentLoaded() {
   // Desplegar el Menú
   function toggleMenu() {
     if(header.classList.contains('menu-expanded')) {
-
       // Si el Menú está desplegado:
       setTimeout(function () {
+        menuIcon.classList.add('fa-bars');
+        menuIcon.classList.remove('fa-xmark');
         header.classList.remove('menu-expanded');
         navMenu.classList.remove('expand');
       }, 10);
@@ -19,22 +20,15 @@ function contentLoaded() {
       enableScroll();
 
     } else {
-
       // Si el Menú no está desplegado
+      menuIcon.classList.remove('fa-bars');
+      menuIcon.classList.add('fa-xmark');
       header.classList.add('menu-expanded');
       navMenu.classList.add('expand');
       // Deshabilitar Scroll mientras esté expandido el Menú
       disableScroll();
     }
   }
-  // Cerrar el Menu
-  // function closeMenu() {
-  //   setTimeout(function () {
-  //     header.classList.remove('menu-expanded');
-  //     navMenu.classList.remove('expand');
-  //   }, 10);
-  //   enableScroll();
-  // }
 
   // Habilitar y deshabilitar Scroll dependiendo del estado del Menú
   function preventScroll(e) {

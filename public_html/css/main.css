@@ -168,14 +168,15 @@ a {
 .header {
   /* border: 1px solid green; */
   display: flex;
-  width: 100%;
-  height: 3rem;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 100;
+  width: 100%;
+  height: 4rem;
+  padding: .5rem 5rem;
   align-items: center;
   background-color: var(--clr-dark);
+  z-index: 100;
 }
 .menu-expanded {
   border-bottom: 1px solid var(--clr-dark);
@@ -186,8 +187,7 @@ a {
   filter:invert();
 }
 .header .logo img {
-  width: 100px;
-  margin: 1rem 3rem;
+  width: 120px;
 }
 .main-nav {
   display: flex;
@@ -196,7 +196,7 @@ a {
 .menu-icon {
   font-size: 2rem;
   color: var(--clr-light);
-  margin: 2rem 3rem 2rem auto;
+  margin-left: auto;
 }
 .menu-expanded .menu-icon {
   color: var(--clr-dark)
@@ -205,7 +205,7 @@ a {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  top: 3rem;
+  top: 4rem;
   left: 0;
   padding-top: 2rem;
   text-align: center;
@@ -282,14 +282,15 @@ a {
 }
 .home .hero-title {
   position: absolute;
-  top: 40vh;
+  top: calc(50% - 1.2rem);
   left: 150px;
   font-size: 2.5rem;
   color: var(--clr-main-400);
 }
 .home .hero-logo {
+  width: 350px;
   position: absolute;
-  bottom: 150px;
+  bottom: calc(50% - 175px);
   right: 150px;
   filter: invert();
 }
@@ -328,7 +329,7 @@ a {
   background-color: var(--clr-main-400);
   text-align: center;
   margin: .2rem;
-  height: 80vh;
+  height: 500px;
 }
 .module-content {
   display: flex;
@@ -382,7 +383,7 @@ a {
 .banner-recup img {
   position: absolute;
   top: 0;
-  right: 0;
+  right: -250px;
   height: 130%;
 }
 .banner-recup .circular-text {
@@ -399,7 +400,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 5rem;
+  padding: 150px;
 }
 .banner__header-text {
   display: inline-block;
@@ -652,7 +653,7 @@ a {
 .sub-page-modular .module-background {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left center;
   /* filter: grayscale(); */
 }
 .sub-page-modular .module-overlay {
@@ -744,7 +745,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 10vw 20vw;
+  margin: 10vw 20vw 0;
   border-left: 3px solid var(--clr-dark);
 }
 .historia .historia-header {
@@ -788,4 +789,37 @@ a {
   font-size: 1.5rem;
   margin-left: 2rem;
   width: 50%;
+}
+
+/* **************** MEDIA QUERIES **************** */
+
+/* ------------- BIG MONITOR UP ------------- */
+@media screen and (min-width: 1800px) {
+
+}
+
+/* ------------- MEDIUM MONITOR DOWN ------------- */
+@media screen and (max-width: 1400px) {
+
+}
+
+/* ------------- TABLET LANDSCAPE DOWN ------------- */
+@media screen and (max-width: 1200px) {
+  .home .hero-logo {
+    width: 250px;
+    bottom: calc(50% - 125px);
+  }
+  .home .hero-title {
+    font-size: 2rem;
+  }
+}
+
+/* ------------- TABLET PORTRAIT DOWN ------------- */
+@media screen and (max-width: 900px) {
+
+}
+
+/* ------------- MOBILE DEVICES DOWN ------------- */
+@media screen and (max-width: 599px) {
+
 }
