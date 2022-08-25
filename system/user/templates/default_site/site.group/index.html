@@ -2,53 +2,57 @@
 <div class="home">
 
   <div class="hero">
-    <div class="hero-background"></div>
-    <div class="hero-overlay">
-
+    <div class="hero-background">
+      <video src="{path='/images/uploads/documents/ROLL_FOTOS_PAGINA.mp4'}" autoplay muted loop></video>
     </div>
+    <div class="hero-overlay"></div>
     <p class="hero-title">Autogestión</p>
-    <img class="hero-logo" src="{path='/images/uploads/logos/texto-circular-negro.png'}" alt="Ocupar - Resistir - Producir" />
+    <img class="hero-logo" src="{path='/images/uploads/logos/texto-circular.png'}" alt="Ocupar - Resistir - Producir" />
   </div>
 
   <!-- INTRO -->
   <!-- Breve introducción a la página -->
-  <div class="main-intro">
-  {exp:channel:entries channel="homepage" limit="1"}
-    <h1 class='main-title'>
-      {if encabezado}
-        {encabezado}
-      {if:else}
-        {title}
-      {/if}
-    </h1>
-    <div class="intro-text">
-      {introduccion}
-    </div>
-  {/exp:channel:entries}
-  </div>
 
-  <!-- MODULAR -->
-  <!-- Links a las secciones principales -->
-  <div class="main-modular">
-    <div class="module">
-      <a class="module-content" href="{path='/quienes-somos'}">
-        <p class="h3">Quiénes <br>Somos</p>
-        <img src="{path='/images/uploads/logos/ico-mner.png'}" alt="Placeholder Logo" />
-      </a>
+  <section class="intro-wrapper">
+    <div class="main-intro">
+    {exp:channel:entries channel="homepage" limit="1"}
+      <h1 class='main-title'>
+        {if encabezado}
+          {encabezado}
+        {if:else}
+          {title}
+        {/if}
+      </h1>
+      <div class="intro-text">
+        {introduccion}
+      </div>
+    {/exp:channel:entries}
     </div>
-    <div class="module">
-      <a class="module-content" href="{path='/que-hacemos'}">
-        <p class="h3">Qué <br>Hacemos</p>
-        <img src="{path='/images/uploads/logos/ico-engranajes.png'}" alt="Placeholder Logo" />
-      </a>
+
+    <!-- MODULAR -->
+    <!-- Links a las secciones principales -->
+    <div class="main-modular">
+      <div class="module">
+        <a class="module-content" href="{path='/quienes-somos'}">
+          <p class="h3">Quiénes <br>Somos</p>
+          <img src="{path='/images/uploads/logos/ico-mner.png'}" alt="Placeholder Logo" />
+        </a>
+      </div>
+      <div class="module">
+        <a class="module-content" href="{path='/que-hacemos'}">
+          <p class="h3">Qué <br>Hacemos</p>
+          <img src="{path='/images/uploads/logos/ico-engranajes.png'}" alt="Placeholder Logo" />
+        </a>
+      </div>
+      <div class="module">
+        <a class="module-content" href="{path='/donde-estamos'}">
+          <p class="h3">Dónde <br>Estamos</p>
+          <img src="{path='/images/uploads/logos/ico-mapa.png'}" alt="Placeholder Logo" />
+          <p class="module-subtitle">Recuperando trabajo <br>en todo el país!</p>
+        </a>
+      </div>
     </div>
-    <div class="module">
-      <a class="module-content" href="{path='/donde-estamos'}">
-        <p class="h3">Dónde <br>Estamos</p>
-        <img src="{path='/images/uploads/logos/ico-mapa.png'}" alt="Placeholder Logo" />
-      </a>
-    </div>
-  </div>
+  </section>
 
   <!-- INSTAGRAM FEED -->
   <!-- Levantar las últimas 6 historias de Instagram -->
@@ -59,8 +63,9 @@
   <!-- MONEDA MIA -->
   <!-- Banner con link a Moneda MIA -->
   <div class="banner banner-mia">
+    <img src="{path='/images/uploads/logos/logo-mia-transp.png'}" alt="Logo Moneda MIA" />
     <p class="h1">Moneda MIA</p>
-    <img src="{path='/images/uploads/logos/logo-mm.png'}" alt="Moneda MIA" />
+    <img src="{path='/images/uploads/logos/logo-mia-transp.png'}" alt="Logo Moneda MIA" />
   </div>
 
   <!-- LEY DE RECUPERACIÓN DE UNIDADES PRODUCTIVAS -->
@@ -69,7 +74,7 @@
 
     <img src="{path='/images/uploads/page/ley-recup.png'}" alt="Placeholder Image" />
 
-    <img class="circular-text" src="{path='/images/uploads/logos/texto-circular-negro.png'}" alt="Ocupar - Resistir - Producir" />
+    <img class="circular-text" src="{path='/images/uploads/logos/texto-circular.png'}" alt="Ocupar - Resistir - Producir" />
 
     <div class="banner__overlay">
       <p class="banner__header-text">

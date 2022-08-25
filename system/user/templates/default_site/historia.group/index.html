@@ -3,7 +3,7 @@
 <div class="historia">
   <div class="hero">
 
-    <img class="hero-logo" src="{path='images/uploads/logos/logo-mner.png'}" alt="Placeholder Logo" />
+    <img class="hero-logo" src="{path='images/uploads/logos/mner-logo-block.png'}" alt="Placeholder Logo" />
 
     <h1 class="hero-title h1">Historia MNER</h1>
 
@@ -20,41 +20,43 @@
   {if historia_evento:count == 1}
   <div class="timeline">
   {/if}
-    <div class="historia-header">
+    <div class="timeline-event">
 
-      <div class="historia-circle"></div>
-      <div class="historia-line"></div>
+      <div class="event-col col1">
 
-      {if historia_evento:he_anio}
-      <p class="anio">
-        {historia_evento:he_anio}
-      </p>
-      {/if}
+        <div class="historia-circle"></div>
+        <div class="historia-line"></div>
 
-      {if historia_evento:he_titulo}
-      <h3 class="historia-titulo">
-        {historia_evento:he_titulo}
-      </h3>
-      {/if}
+        {if historia_evento:he_anio}
+        <p class="historia-anio">
+          {historia_evento:he_anio}
+        </p>
+        {/if}
 
-    </div>
+        {if historia_evento:file}
+          {historia_evento:file}
+          <img class="historia-img" src="{url}" alt="{title}">
+          {/historia_evento:file}
+        {/if}
 
-    <div class="historia-body">
-
-    {if historia_evento:file}
-      {historia_evento:file}
-      <img class="historia-img" src="{url}" alt="{title}">
-      {/historia_evento:file}
-    {/if}
-
-    {if historia_evento:he_descripcion}
-      <div class="historia-descripcion">
-        {historia_evento:he_descripcion}
       </div>
-    {/if}
+
+      <div class="event-col col2">
+        {if historia_evento:he_titulo}
+        <h3 class="historia-titulo">
+          {historia_evento:he_titulo}
+        </h3>
+        {/if}
+
+        {if historia_evento:he_descripcion}
+          <div class="historia-descripcion">
+            {historia_evento:he_descripcion}
+          </div>
+        {/if}
+
+      </div>
 
     </div>
-
   {if historia_evento:count == historia_evento:total_rows}
   </div>
   {/if}

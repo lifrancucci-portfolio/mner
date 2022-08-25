@@ -21,34 +21,38 @@
           Quienes <br> somos
         </h1>
 
-        <img src="{path='/images/uploads/logos/ico-mner.png'}" alt="Placeholder Logo MNER" />
+        <img class="panel-img" src="{path='/images/uploads/logos/ico-mner.png'}" alt="Placeholder Logo MNER" />
       </div>
 
       <div class="panel panel-right">
         <div class="intro-text">
           {introduccion}
         </div>
+
+        <!-- BLOQUE HISTORIA MNER -->
+        <div class="block-historia">
+          <a href="{path='/historia'}">
+            <p class="h3">Historia MNER</p>
+          </a>
+        </div>
+
       </div>
 
-      <!-- <div class="page-intro">
-
-
-      </div> -->
     </div>
   </div>
 {/exp:channel:entries}
 
 <!-- BLOQUE HISTORIA MNER -->
-{exp:channel:entries channel="historia" limit="1"}
+<!-- {exp:channel:entries channel="historia" limit="1"}
   <div class="block-historia">
     <a href="{path='/historia'}">
       <p class="h3">{title}</p>
     </a>
   </div>
-{/exp:channel:entries}
+{/exp:channel:entries} -->
 
 <!-- GALERÍA DE FOTOS -->
-  <div class="galeria">
+  <div id="galeria" class="galeria">
   {exp:channel:entries channel="galeria" dynamic="no" orderby="date" sort="desc"}
 
   {foto_galeria}

@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1659618751;s:3:"ttl";i:0;s:4:"data";a:4:{s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"feed";a:1:{i:0;a:6:{s:4:"data";s:105:"
+a:3:{s:4:"time";i:1661454015;s:3:"ttl";i:0;s:4:"data";a:4:{s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"feed";a:1:{i:0;a:6:{s:4:"data";s:105:"
 
 		
 		
@@ -32,7 +32,169 @@ a:3:{s:4:"time";i:1659618751;s:3:"ttl";i:0;s:4:"data";a:4:{s:5:"child";a:1:{s:27
 			
 		
 
-	";s:7:"attribs";a:1:{s:36:"http://www.w3.org/XML/1998/namespace";a:1:{s:4:"lang";s:2:"en";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:8:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:16:"ExpressionEngine";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"text";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:8:"subtitle";a:1:{i:0;a:5:{s:4:"data";s:4:"Blog";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"text";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:4:"link";a:2:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:3:"rel";s:9:"alternate";s:4:"type";s:9:"text/html";s:4:"href";s:0:"";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:3:"rel";s:4:"self";s:4:"type";s:20:"application/atom+xml";s:4:"href";s:49:"https://expressionengine.com/blog/rss-feed/cpnews";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:7:"updated";a:1:{i:0;a:5:{s:4:"data";s:25:"2022-08-03T16:15:30+00:00";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:6:"rights";a:1:{i:0;a:5:{s:4:"data";s:30:"Copyright (c) 2022, Tom Jaeger";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:9:"generator";a:1:{i:0;a:5:{s:4:"data";s:16:"ExpressionEngine";s:7:"attribs";a:1:{s:0:"";a:2:{s:3:"uri";s:28:"http://expressionengine.com/";s:7:"version";s:5:"5.4.3";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:2:"id";a:1:{i:0;a:5:{s:4:"data";s:29:"https://expressionengine.com/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:5:"entry";a:10:{i:0;a:6:{s:4:"data";s:89:"
+	";s:7:"attribs";a:1:{s:36:"http://www.w3.org/XML/1998/namespace";a:1:{s:4:"lang";s:2:"en";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:8:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:16:"ExpressionEngine";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"text";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:8:"subtitle";a:1:{i:0;a:5:{s:4:"data";s:4:"Blog";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"text";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:4:"link";a:2:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:3:"rel";s:9:"alternate";s:4:"type";s:9:"text/html";s:4:"href";s:0:"";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:3:"rel";s:4:"self";s:4:"type";s:20:"application/atom+xml";s:4:"href";s:49:"https://expressionengine.com/blog/rss-feed/cpnews";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:7:"updated";a:1:{i:0;a:5:{s:4:"data";s:25:"2022-08-24T19:36:21+00:00";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:6:"rights";a:1:{i:0;a:5:{s:4:"data";s:34:"Copyright (c) 2022, Andy McCormick";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:9:"generator";a:1:{i:0;a:5:{s:4:"data";s:16:"ExpressionEngine";s:7:"attribs";a:1:{s:0:"";a:2:{s:3:"uri";s:28:"http://expressionengine.com/";s:7:"version";s:5:"5.4.3";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:2:"id";a:1:{i:0;a:5:{s:4:"data";s:29:"https://expressionengine.com/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:5:"entry";a:10:{i:0;a:6:{s:4:"data";s:123:"
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				
+					
+					
+				
+					
+					
+				
+				
+
+				
+				
+					
+					
+				
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:10:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:34:"ExpressionEngine 7 Updated Pricing";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:3:"rel";s:9:"alternate";s:4:"type";s:9:"text/html";s:4:"href";s:68:"https://expressionengine.com/blog/expressionengine-7-updated-pricing";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:2:"id";a:1:{i:0;a:5:{s:4:"data";s:68:"https://expressionengine.com/blog/expressionengine-7-updated-pricing";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:9:"published";a:1:{i:0;a:5:{s:4:"data";s:25:"2022-08-23T16:17:00+00:00";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:7:"updated";a:1:{i:0;a:5:{s:4:"data";s:25:"2022-08-24T19:36:21+00:00";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:6:"author";a:1:{i:0;a:6:{s:4:"data";s:23:"
+					
+					
+					
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:2:{s:4:"name";a:1:{i:0;a:5:{s:4:"data";s:14:"Andy McCormick";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:5:"email";a:1:{i:0;a:5:{s:4:"data";s:19:"Andy@PacketTide.com";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}}s:8:"category";a:3:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:4:"term";s:17:"CP Accessory Feed";s:6:"scheme";s:60:"https://expressionengine.com/blog/category/cp-accessory-feed";s:5:"label";s:17:"CP Accessory Feed";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:4:"term";s:16:"ExpressionEngine";s:6:"scheme";s:59:"https://expressionengine.com/blog/category/expressionengine";s:5:"label";s:16:"ExpressionEngine";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:4:"term";s:4:"News";s:6:"scheme";s:47:"https://expressionengine.com/blog/category/news";s:5:"label";s:4:"News";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:7:"content";a:1:{i:0;a:5:{s:4:"data";s:3569:"
+				<p>After several weeks of hearing from the community, we&#8217;re happy to announce new pricing for ExpressionEngine 7.</p>
+
+<h2>New Pricing</h2>
+
+<ul>
+<li><strong>Core</strong> - We&#8217;re keeping the Core of ExpressionEngine 7 free! </li>
+<li><strong>Pro</strong> - Pro opens up unlimited control panel users and is initially $249 for the 1st year of updates. After your first year, a Pro license can be renewed for as low as $49/yr.</li>
+<li><strong>MSM</strong> - Each additional MSM site license is $49 for the 1st year of updates, and can then be renewed for as low as $39/year.</li>
+</ul>
+
+<p class="text-center"><a href="/store/purchase-pro" class="bg-red text-white mt-6 inline-block px-8 border border-red border-solid rounded-md text-center text-base font-normal lg:mt-6 leading-50 hover:bg-white hover:text-red " style="color:#fff;">Purchase ExpressionEngine Pro</a></p>
+
+<h2>What&#8217;s Changed</h2>
+
+<h3>User Limits</h3>
+
+<p>Originally we released ExpressionEngine 7 with all of the <a href="/features">new features</a> as well as <a href="/introducing-expressionengine-pro">all the features</a> that were previously only available with a Pro license for Free when a site only needs 1 registered user. If you needed more users (with Control Panel access or without), you needed to purchase a Pro license. We&#8217;ve updated this to now allow <strong>unlimited non-control panel users</strong> in the Core version for free. This allows for more freedom on sites that only need 1 user with Control Panel access, but still want to allow users to register to leave comments, create e-commerce accounts, update content via Channel Forms, or other member functions. If you need more than one user with Control Panel access, a Pro license will still be required.</p>
+
+<h3>Pricing</h3>
+
+<p>Initially, a Pro license for ExpressionEngine 7 was going to remain the same as it had been for ExpressionEngine 6: $199/yr. Our goal is to build ExpressionEngine as a stable platform that everyone can thrive off of. However, it was clear from the community that the current pricing just was missing the mark. In light of this, <strong>we have updated the pricing for ExpressionEngine Pro to $249</strong> for the 1st year of updates. After your first year, a Pro license can be renewed for $49/yr when you subscribe to yearly renewals or $59 for a single year of updates.</p>
+
+<p><strong>MSM licenses have also been reduced</strong> from $99/yr to $49 for the 1st year of updates, and can then be renewed for $39/year when you subscribe to yearly renewals or $49 for a single year of updates.</p>
+
+<h3>Pro With ExpressionEngine 6</h3>
+
+<p>If you need to purchase a Pro license for use with ExpressionEngine 6, these licenses have also been reduced to the above pricing. If you are currently using Pro with ExpressionEngine 6, <strong>your yearly renewal will be reduced to $49/yr</strong>.</p>
+
+<h2>Pro License Discounts</h2>
+
+<p class="text-purple-lighter font-bold leading-none" style="font-size: 3.75rem;margin-bottom: 10px;"><strike class="font-light opacity-40 text-4xl">$249</strike>$189</p>
+
+<p><strong>For the next two weeks (Aug 24 - Sept 7) a Single Site Pro license is on sale for only $189!</strong> No limit on licenses purchased during this sale.</p>
+
+<p class="text-center"><a href="/store/purchase-pro" class="bg-red text-white mt-6 inline-block px-8 border border-red border-solid rounded-md text-center text-base font-normal lg:mt-6 leading-50 hover:bg-white hover:text-red " style="color:#fff;">Purchase ExpressionEngine Pro</a></p>
+
+				";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 23 Aug 2022 16:17:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3559:"<p>After several weeks of hearing from the community, we&#8217;re happy to announce new pricing for ExpressionEngine 7.</p>
+
+<h2>New Pricing</h2>
+
+<ul>
+<li><strong>Core</strong> - We&#8217;re keeping the Core of ExpressionEngine 7 free! </li>
+<li><strong>Pro</strong> - Pro opens up unlimited control panel users and is initially $249 for the 1st year of updates. After your first year, a Pro license can be renewed for as low as $49/yr.</li>
+<li><strong>MSM</strong> - Each additional MSM site license is $49 for the 1st year of updates, and can then be renewed for as low as $39/year.</li>
+</ul>
+
+<p class="text-center"><a href="/store/purchase-pro" class="bg-red text-white mt-6 inline-block px-8 border border-red border-solid rounded-md text-center text-base font-normal lg:mt-6 leading-50 hover:bg-white hover:text-red " style="color:#fff;">Purchase ExpressionEngine Pro</a></p>
+
+<h2>What&#8217;s Changed</h2>
+
+<h3>User Limits</h3>
+
+<p>Originally we released ExpressionEngine 7 with all of the <a href="/features">new features</a> as well as <a href="/introducing-expressionengine-pro">all the features</a> that were previously only available with a Pro license for Free when a site only needs 1 registered user. If you needed more users (with Control Panel access or without), you needed to purchase a Pro license. We&#8217;ve updated this to now allow <strong>unlimited non-control panel users</strong> in the Core version for free. This allows for more freedom on sites that only need 1 user with Control Panel access, but still want to allow users to register to leave comments, create e-commerce accounts, update content via Channel Forms, or other member functions. If you need more than one user with Control Panel access, a Pro license will still be required.</p>
+
+<h3>Pricing</h3>
+
+<p>Initially, a Pro license for ExpressionEngine 7 was going to remain the same as it had been for ExpressionEngine 6: $199/yr. Our goal is to build ExpressionEngine as a stable platform that everyone can thrive off of. However, it was clear from the community that the current pricing just was missing the mark. In light of this, <strong>we have updated the pricing for ExpressionEngine Pro to $249</strong> for the 1st year of updates. After your first year, a Pro license can be renewed for $49/yr when you subscribe to yearly renewals or $59 for a single year of updates.</p>
+
+<p><strong>MSM licenses have also been reduced</strong> from $99/yr to $49 for the 1st year of updates, and can then be renewed for $39/year when you subscribe to yearly renewals or $49 for a single year of updates.</p>
+
+<h3>Pro With ExpressionEngine 6</h3>
+
+<p>If you need to purchase a Pro license for use with ExpressionEngine 6, these licenses have also been reduced to the above pricing. If you are currently using Pro with ExpressionEngine 6, <strong>your yearly renewal will be reduced to $49/yr</strong>.</p>
+
+<h2>Pro License Discounts</h2>
+
+<p class="text-purple-lighter font-bold leading-none" style="font-size: 3.75rem;margin-bottom: 10px;"><strike class="font-light opacity-40 text-4xl">$249</strike>$189</p>
+
+<p><strong>For the next two weeks (Aug 24 - Sept 7) a Single Site Pro license is on sale for only $189!</strong> No limit on licenses purchased during this sale.</p>
+
+<p class="text-center"><a href="/store/purchase-pro" class="bg-red text-white mt-6 inline-block px-8 border border-red border-solid rounded-md text-center text-base font-normal lg:mt-6 leading-50 hover:bg-white hover:text-red " style="color:#fff;">Purchase ExpressionEngine Pro</a></p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}i:1;a:6:{s:4:"data";s:89:"
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				
+				
+
+				
+				
+					
+					
+				
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:10:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:20:"ExpressionEngine 7.1";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:3:"rel";s:9:"alternate";s:4:"type";s:9:"text/html";s:4:"href";s:54:"https://expressionengine.com/blog/expressionengine-7.1";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:2:"id";a:1:{i:0;a:5:{s:4:"data";s:54:"https://expressionengine.com/blog/expressionengine-7.1";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:9:"published";a:1:{i:0;a:5:{s:4:"data";s:25:"2022-08-18T14:41:00+00:00";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:7:"updated";a:1:{i:0;a:5:{s:4:"data";s:25:"2022-08-18T16:06:15+00:00";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:6:"author";a:1:{i:0;a:6:{s:4:"data";s:23:"
+					
+					
+					
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:2:{s:4:"name";a:1:{i:0;a:5:{s:4:"data";s:10:"Tom Jaeger";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:5:"email";a:1:{i:0;a:5:{s:4:"data";s:18:"Tom@PacketTide.com";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:4:"term";s:17:"CP Accessory Feed";s:6:"scheme";s:60:"https://expressionengine.com/blog/category/cp-accessory-feed";s:5:"label";s:17:"CP Accessory Feed";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:7:"content";a:1:{i:0;a:5:{s:4:"data";s:1456:"
+				<p>Here we are, roughly 2 weeks after the initial launch of <a href="https://expressionengine.com/blog/expressionengine-7-official-release">ExpressionEngine version 7</a>, and today we&#8217;re happy to announce the release of ExpressionEngine 7.1</p>
+
+<h2>Why 7.1?</h2>
+
+<p>When we released ExpressionEngine 7.0 we had planned to include Structure in the core right out of the gate.  Just before release, we concluded it wasn&#8217;t ready JUST yet, so we decided to err on the side of giving it a bit more time and attention to be sure it was in good shape.</p>
+
+<p>Today we&#8217;re happy to share that the Structure integration into the core of ExpressionEngine is ready to go!</p>
+
+<p>Beyond Structure being integrated, version 7 has turned into a fairly large release.  <a href="https://docs.expressionengine.com/latest/installation/changelog.html">Check out the changelog for all the goodies!</a></p>
+
+<h2>What is Structure?</h2>
+
+<p>Structure has long been considered by many to be the premier navigation manager in ExpressionEngine.  Structure lets you create pages, generate navigation, and manage content through a simple hierarchical (Sitemap) interface.</p>
+
+<figure><center>
+    <img src="https://expressionengine.com/asset/img/blog/Structure_Prolet.png" alt="New File Manager in ExpressionEngine 7">
+</center></figure>
+
+<p>Today we&#8217;re excited to share that Structure is now shipping as part of the ExpressionEngine core.</p>
+
+				";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 18 Aug 2022 14:41:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1446:"<p>Here we are, roughly 2 weeks after the initial launch of <a href="https://expressionengine.com/blog/expressionengine-7-official-release">ExpressionEngine version 7</a>, and today we&#8217;re happy to announce the release of ExpressionEngine 7.1</p>
+
+<h2>Why 7.1?</h2>
+
+<p>When we released ExpressionEngine 7.0 we had planned to include Structure in the core right out of the gate.  Just before release, we concluded it wasn&#8217;t ready JUST yet, so we decided to err on the side of giving it a bit more time and attention to be sure it was in good shape.</p>
+
+<p>Today we&#8217;re happy to share that the Structure integration into the core of ExpressionEngine is ready to go!</p>
+
+<p>Beyond Structure being integrated, version 7 has turned into a fairly large release.  <a href="https://docs.expressionengine.com/latest/installation/changelog.html">Check out the changelog for all the goodies!</a></p>
+
+<h2>What is Structure?</h2>
+
+<p>Structure has long been considered by many to be the premier navigation manager in ExpressionEngine.  Structure lets you create pages, generate navigation, and manage content through a simple hierarchical (Sitemap) interface.</p>
+
+<figure><center>
+    <img src="https://expressionengine.com/asset/img/blog/Structure_Prolet.png" alt="New File Manager in ExpressionEngine 7">
+</center></figure>
+
+<p>Today we&#8217;re excited to share that Structure is now shipping as part of the ExpressionEngine core.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}i:2;a:6:{s:4:"data";s:89:"
 				
 				
 				
@@ -184,7 +346,7 @@ a:3:{s:4:"time";i:1659618751;s:3:"ttl";i:0;s:4:"data";a:4:{s:5:"child";a:1:{s:27
 <figure><center>
     <img src="https://expressionengine.com/asset/img/blog/ee7_new_fm.png" alt="New File Manager in ExpressionEngine 7">
 </center></figure>
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}i:1;a:6:{s:4:"data";s:106:"
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}i:3;a:6:{s:4:"data";s:106:"
 				
 				
 				
@@ -319,7 +481,7 @@ a:3:{s:4:"time";i:1659618751;s:3:"ttl";i:0;s:4:"data";a:4:{s:5:"child";a:1:{s:27
 <h2>Other Additions</h2>
 
 <p>The 6.3.0 release of ExpressionEngine goes beyond conditional fields and new field types.  Check out <a href="https://docs.expressionengine.com/latest/installation/changelog.html">the full change log</a> for all the goodies!</p>
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}i:2;a:6:{s:4:"data";s:106:"
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}i:4;a:6:{s:4:"data";s:106:"
 				
 				
 				
@@ -448,7 +610,7 @@ Conditional fields bring the ExpressionEngine content administration experience 
 <p>You can now give content admins the flexibility they need with conditional fields while retaining content integrity.</p>
 
 <p>Simply put, it&#8217;s a more effective way to ensure content integrity as well as a better content admin experience.</p>
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}i:3;a:6:{s:4:"data";s:89:"
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}i:5;a:6:{s:4:"data";s:89:"
 				
 				
 				
@@ -514,7 +676,7 @@ Conditional fields bring the ExpressionEngine content administration experience 
 <p>Take a peek at the full <a href="https://docs.expressionengine.com/latest/installation/changelog.html">change log</a>!</p>
 
 <p><em>Please note, we consider this phase 1 of entry cloning, while we already have plans in place for phase 2 we&#8217;re eager to hear your feedback to help us shape those plans further!</em></p>
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}i:4;a:6:{s:4:"data";s:89:"
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}i:6;a:6:{s:4:"data";s:89:"
 				
 				
 				
@@ -606,7 +768,7 @@ Conditional fields bring the ExpressionEngine content administration experience 
 <li>PHP 8.1 Support</li>
 <li><a href="https://docs.expressionengine.com/latest/installation/changelog.html">Many more</a></li>
 </ul>
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}i:5;a:6:{s:4:"data";s:89:"
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}i:7;a:6:{s:4:"data";s:89:"
 				
 				
 				
@@ -648,7 +810,7 @@ Conditional fields bring the ExpressionEngine content administration experience 
 <p>The good news is that <a href="https://expressionengine.com/support/version-support">ExpressionEngine Version 6 is an LTS (Long Term Support) release,</a> and as such will be supported for 5 more years.  It&#8217;s also an easy upgrade from version 5.</p>
 
 <p>Learn more about why you should upgrade, or to <a href="https://expressionengine.com/upgrades">get in touch with an ExpressionEngine Partner that specializes in upgrades today!</a></p>
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}i:6;a:6:{s:4:"data";s:89:"
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}i:8;a:6:{s:4:"data";s:89:"
 				
 				
 				
@@ -782,7 +944,7 @@ These features (and more!) will take your existing ExpressionEngine sites and <e
 <p>And finally, thanks to everyone in the EE community for your support and encouragement over the last year. It feels great to finally deliver this release into your hands!</p>
 
 <p>Welcome to the new era!</p>
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}i:7;a:6:{s:4:"data";s:89:"
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}i:9;a:6:{s:4:"data";s:89:"
 				
 				
 				
@@ -890,78 +1052,4 @@ These features (and more!) will take your existing ExpressionEngine sites and <e
 <p>We&#8217;ve also added reCAPTCHA support as an additional CAPTCHA option in version 6.1  We specifically chose version 3 as it has better accessibility.</p>
 
 <p>This is just the tip of the iceberg. <a href="https://docs.expressionengine.com/latest/installation/changelog.html">Take a peek at the change log for all details!</a></p>
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}i:8;a:6:{s:4:"data";s:89:"
-				
-				
-				
-				
-				
-				
-				
-					
-					
-				
-				
-
-				
-				
-					
-					
-				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:10:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:40:"ExpressionEngine Conference, 6.1 and Pro";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:3:"rel";s:9:"alternate";s:4:"type";s:9:"text/html";s:4:"href";s:63:"https://expressionengine.com/blog/expressionengine-conf-and-pro";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:2:"id";a:1:{i:0;a:5:{s:4:"data";s:63:"https://expressionengine.com/blog/expressionengine-conf-and-pro";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:9:"published";a:1:{i:0;a:5:{s:4:"data";s:25:"2021-09-22T11:56:00+00:00";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:7:"updated";a:1:{i:0;a:5:{s:4:"data";s:25:"2022-04-01T16:23:09+00:00";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:6:"author";a:1:{i:0;a:6:{s:4:"data";s:23:"
-					
-					
-					
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:2:{s:4:"name";a:1:{i:0;a:5:{s:4:"data";s:10:"Tom Jaeger";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:5:"email";a:1:{i:0;a:5:{s:4:"data";s:18:"Tom@PacketTide.com";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:4:"term";s:17:"CP Accessory Feed";s:6:"scheme";s:60:"https://expressionengine.com/blog/category/cp-accessory-feed";s:5:"label";s:17:"CP Accessory Feed";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:7:"content";a:1:{i:0;a:5:{s:4:"data";s:796:"
-				<p>Today we&#8217;re happy to announce that we&#8217;ve partnered with the EECA (ExpressionEngine Community Association) to make this year&#8217;s <a href="https://www.eeconf.com/">ExpressionEngine conference FREE</a>!  The conference will be September 30th and October 1st. There are a lot of great talks, as well as exciting updates to ExpressionEngine that we&#8217;re looking forward to sharing.</p>
-
-<p><a href="https://hopin.com/events/ee-conf-fall-summit">Grab your FREE ticket (and if you&#8217;re quick enough, a $100 free credit on Digital Ocean)</a></p>
-
-<p>In addition to this, we&#8217;re also pleased to share that at the conference we&#8217;ll be announcing ExpressionEngine 6.1 and Pro, along with demonstrations, and a session on implementing ExpressionEngine Pro.</p>
-
-				";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 22 Sep 2021 11:56:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:786:"<p>Today we&#8217;re happy to announce that we&#8217;ve partnered with the EECA (ExpressionEngine Community Association) to make this year&#8217;s <a href="https://www.eeconf.com/">ExpressionEngine conference FREE</a>!  The conference will be September 30th and October 1st. There are a lot of great talks, as well as exciting updates to ExpressionEngine that we&#8217;re looking forward to sharing.</p>
-
-<p><a href="https://hopin.com/events/ee-conf-fall-summit">Grab your FREE ticket (and if you&#8217;re quick enough, a $100 free credit on Digital Ocean)</a></p>
-
-<p>In addition to this, we&#8217;re also pleased to share that at the conference we&#8217;ll be announcing ExpressionEngine 6.1 and Pro, along with demonstrations, and a session on implementing ExpressionEngine Pro.</p>
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}i:9;a:6:{s:4:"data";s:123:"
-				
-				
-				
-				
-				
-				
-				
-					
-					
-				
-					
-					
-				
-					
-					
-				
-				
-
-				
-				
-					
-					
-				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:10:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:42:"EEConf Spring Summit - Ticket Scholarships";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:3:"rel";s:9:"alternate";s:4:"type";s:9:"text/html";s:4:"href";s:74:"https://expressionengine.com/blog/eeconf-spring-summit-ticket-scholarships";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:2:"id";a:1:{i:0;a:5:{s:4:"data";s:74:"https://expressionengine.com/blog/eeconf-spring-summit-ticket-scholarships";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:9:"published";a:1:{i:0;a:5:{s:4:"data";s:25:"2021-04-21T18:42:00+00:00";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:7:"updated";a:1:{i:0;a:5:{s:4:"data";s:25:"2022-04-01T16:21:01+00:00";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:6:"author";a:1:{i:0;a:6:{s:4:"data";s:23:"
-					
-					
-					
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:2:{s:4:"name";a:1:{i:0;a:5:{s:4:"data";s:14:"Andy McCormick";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:5:"email";a:1:{i:0;a:5:{s:4:"data";s:19:"Andy@PacketTide.com";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}}s:8:"category";a:3:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:4:"term";s:17:"CP Accessory Feed";s:6:"scheme";s:60:"https://expressionengine.com/blog/category/cp-accessory-feed";s:5:"label";s:17:"CP Accessory Feed";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:4:"term";s:16:"ExpressionEngine";s:6:"scheme";s:59:"https://expressionengine.com/blog/category/expressionengine";s:5:"label";s:16:"ExpressionEngine";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:4:"term";s:4:"News";s:6:"scheme";s:47:"https://expressionengine.com/blog/category/news";s:5:"label";s:4:"News";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:7:"content";a:1:{i:0;a:5:{s:4:"data";s:779:"
-				<p>Following in the steps of our friends at <a href="https://laraconscholarship.com/">LaraconScholarship</a>, we&#8217;re happy to announce that ExpressionEngine and <a href="https://www.eeconf.com">EEConf</a> are working together to find those in our community who would like to attend the EEConf Spring Summit, but can&#8217;t afford it. We&#8217;re primarily focusing on members of demographic groups that are traditionally underrepresented at tech conferences.</p>
-
-<p>If you&#8217;re interested in joining us and the rest of the EE Community, please follow the link below to submit the scholarship request form. If approved, you will be sent a special link to use for your registration.</p>
-
-<p style="text-align:center;">The Spring Summit is now over. Thanks</p>
-
-				";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 21 Apr 2021 18:42:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:769:"<p>Following in the steps of our friends at <a href="https://laraconscholarship.com/">LaraconScholarship</a>, we&#8217;re happy to announce that ExpressionEngine and <a href="https://www.eeconf.com">EEConf</a> are working together to find those in our community who would like to attend the EEConf Spring Summit, but can&#8217;t afford it. We&#8217;re primarily focusing on members of demographic groups that are traditionally underrepresented at tech conferences.</p>
-
-<p>If you&#8217;re interested in joining us and the rest of the EE Community, please follow the link below to submit the scholarship request form. If approved, you will be sent a special link to use for your registration.</p>
-
-<p style="text-align:center;">The Spring Summit is now over. Thanks</p>
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}}}}}}}}s:4:"type";i:512;s:7:"headers";a:13:{s:6:"server";s:12:"nginx/1.17.3";s:4:"date";s:29:"Thu, 04 Aug 2022 13:12:32 GMT";s:12:"content-type";s:23:"text/xml; charset=utf-8";s:10:"connection";s:10:"keep-alive";s:10:"set-cookie";s:569:"exp_last_visit=1344258752; expires=Fri, 04-Aug-2023 13:12:32 GMT; Max-Age=31536000; path=/; SameSite=Lax; secure; HttpOnly, exp_last_activity=1659618752; expires=Fri, 04-Aug-2023 13:12:32 GMT; Max-Age=31536000; path=/; SameSite=Lax; secure; HttpOnly, exp_csrf_token=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; SameSite=Lax; secure; HttpOnly, exp_csrf_token=cf970d1d0e59f7f023eae20cdc16df477f079162; expires=Thu, 04-Aug-2022 15:12:32 GMT; Max-Age=7200; path=/; SameSite=Lax; secure; HttpOnly, PHPSESSID=qmrcm2qid2tnmi1m337j388u4i; secure; HttpOnly";s:15:"x-frame-options";s:22:"SAMEORIGIN, SAMEORIGIN";s:7:"expires";s:29:"Wed, 03 Aug 2022 17:15:30 GMT";s:13:"last-modified";s:29:"Wed, 03 Aug 2022 16:15:30 GMT";s:13:"cache-control";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";s:6:"pragma";s:8:"no-cache";s:16:"x-xss-protection";s:13:"1; mode=block";s:22:"x-content-type-options";s:7:"nosniff";s:23:"content-security-policy";s:23:"frame-ancestors 'self';";}s:5:"build";s:14:"20220223140636";}}
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:2:"en";}}}}}}}}}}}}s:4:"type";i:512;s:7:"headers";a:13:{s:6:"server";s:12:"nginx/1.17.3";s:4:"date";s:29:"Thu, 25 Aug 2022 19:00:16 GMT";s:12:"content-type";s:23:"text/xml; charset=utf-8";s:10:"connection";s:10:"keep-alive";s:10:"set-cookie";s:569:"exp_last_visit=1346094016; expires=Fri, 25-Aug-2023 19:00:16 GMT; Max-Age=31536000; path=/; SameSite=Lax; secure; HttpOnly, exp_last_activity=1661454016; expires=Fri, 25-Aug-2023 19:00:16 GMT; Max-Age=31536000; path=/; SameSite=Lax; secure; HttpOnly, exp_csrf_token=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; SameSite=Lax; secure; HttpOnly, exp_csrf_token=ba6a3b1d9ee75e23d8d4cab4bd80ecd6cd09823a; expires=Thu, 25-Aug-2022 21:00:16 GMT; Max-Age=7200; path=/; SameSite=Lax; secure; HttpOnly, PHPSESSID=1rvp5ho9hmveqopdnamghs6tl0; secure; HttpOnly";s:15:"x-frame-options";s:22:"SAMEORIGIN, SAMEORIGIN";s:7:"expires";s:29:"Wed, 24 Aug 2022 20:36:21 GMT";s:13:"last-modified";s:29:"Wed, 24 Aug 2022 19:36:21 GMT";s:13:"cache-control";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";s:6:"pragma";s:8:"no-cache";s:16:"x-xss-protection";s:13:"1; mode=block";s:22:"x-content-type-options";s:7:"nosniff";s:23:"content-security-policy";s:23:"frame-ancestors 'self';";}s:5:"build";s:14:"20220223140636";}}
