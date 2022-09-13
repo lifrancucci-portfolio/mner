@@ -3,6 +3,9 @@
 <div class="historia">
   <div class="hero">
 
+    <div class="hero-background"></div>
+    <div class="hero-overlay"></div>
+
     <img class="hero-logo" src="{path='images/uploads/logos/mner-logo-block.png'}" alt="Placeholder Logo" />
 
     <h1 class="hero-title h1">Historia MNER</h1>
@@ -14,53 +17,55 @@
 
   </div>
 
-{exp:channel:entries channel="historia"}
+  <div class="timeline-background">
+    {exp:channel:entries channel="historia"}
 
-{historia_evento orderby="he_anio" sort="desc"}
-  {if historia_evento:count == 1}
-  <div class="timeline">
-  {/if}
-    <div class="timeline-event">
+    {historia_evento orderby="he_anio" sort="desc"}
+      {if historia_evento:count == 1}
+      <div class="timeline">
+      {/if}
+        <div class="timeline-event">
 
-      <div class="event-col col1">
+          <div class="event-col col1">
 
-        <div class="historia-circle"></div>
-        <div class="historia-line"></div>
+            <div class="historia-circle"></div>
+            <div class="historia-line"></div>
 
-        {if historia_evento:he_anio}
-        <p class="historia-anio">
-          {historia_evento:he_anio}
-        </p>
-        {/if}
+            {if historia_evento:he_anio}
+            <p class="historia-anio">
+              {historia_evento:he_anio}
+            </p>
+            {/if}
 
-        {if historia_evento:file}
-          {historia_evento:file}
-          <img class="historia-img" src="{url}" alt="{title}">
-          {/historia_evento:file}
-        {/if}
+            {if historia_evento:file}
+              {historia_evento:file}
+              <img class="historia-img" src="{url}" alt="{title}">
+              {/historia_evento:file}
+            {/if}
 
-      </div>
-
-      <div class="event-col col2">
-        {if historia_evento:he_titulo}
-        <h3 class="historia-titulo">
-          {historia_evento:he_titulo}
-        </h3>
-        {/if}
-
-        {if historia_evento:he_descripcion}
-          <div class="historia-descripcion">
-            {historia_evento:he_descripcion}
           </div>
-        {/if}
 
+          <div class="event-col col2">
+            {if historia_evento:he_titulo}
+            <h3 class="historia-titulo">
+              {historia_evento:he_titulo}
+            </h3>
+            {/if}
+
+            {if historia_evento:he_descripcion}
+              <div class="historia-descripcion">
+                {historia_evento:he_descripcion}
+              </div>
+            {/if}
+
+          </div>
+
+        </div>
+      {if historia_evento:count == historia_evento:total_rows}
       </div>
-
-    </div>
-  {if historia_evento:count == historia_evento:total_rows}
+      {/if}
+    {/historia_evento}
+    {/exp:channel:entries}
   </div>
-  {/if}
-{/historia_evento}
-{/exp:channel:entries}
 
 </div>
