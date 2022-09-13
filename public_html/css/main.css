@@ -282,8 +282,8 @@ footer {
 .footer-panel {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  justify-content: space-between;
+  /* align-items: stretch;
+  justify-content: space-between; */
   padding: 0 3rem;
   width: 50%;
 }
@@ -360,7 +360,7 @@ footer .panel-right {
   font-style: oblique;
   text-align: center;
   padding: 1rem;
-  margin: 5rem 0;
+  margin: 3rem 0;
 }
 
 /* -----------MODULAR----------- */
@@ -450,7 +450,7 @@ footer .panel-right {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
   padding-left: 5rem;
   padding-top: 3rem;
@@ -479,6 +479,7 @@ footer .panel-right {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   background-color: var(--clr-dark);
   color: var(--clr-light);
   padding: 4rem 2rem;
@@ -574,6 +575,7 @@ footer .panel-right {
   width: 100%;
   height: 100%;
   background-color: var(--clr-accent-400);
+  padding-top: 3rem;
 }
 .historia .timeline {
   display: flex;
@@ -617,7 +619,6 @@ footer .panel-right {
 }
 .historia .historia-anio {
   padding-left: 2rem;
-  /* width: calc(300px - 3.3rem); */
 }
 .historia .historia-titulo {
   margin-left: 5rem;
@@ -862,11 +863,35 @@ footer .panel-right {
 /* ------------- TABLET LANDSCAPE DOWN ------------- */
 @media screen and (max-width: 1200px) {
   .home .hero-logo {
-    width: 250px;
-    bottom: calc(50% - 125px);
+    width: 350px;
+    bottom: 5rem;
+    right: 5rem;
   }
   .home .hero-title {
     font-size: 2rem;
+  }
+  .main-modular .module {
+    height: 400px;
+  }
+  .main-modular .module img {
+    width: auto;
+    height: 230px;
+  }
+  .main-modular .module:first-child img {
+    height: 180px;
+  }
+  .banner-mia .h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .banner__overlay {
+    padding-top: 5rem;
+  }
+  .subpage-modular {
+    height: auto;
+  }
+  .recoop.subpage-modular {
+    height: 80vh;
   }
 }
 
@@ -874,6 +899,24 @@ footer .panel-right {
 @media screen and (max-width: 900px) {
   body {
     font-size: 18px;
+  }
+  footer {
+    min-height: 0;
+    height: auto;
+    padding: 1rem;
+  }
+  .footer-panel {
+    padding: 0 2rem;
+    width: auto;
+  }
+  .footer__logo {
+    width: 250px;
+  }
+  .footer-panel .footer-title {
+    font-size: 1rem;
+  }
+  .footer-panel .footer-subtitle {
+    display: none;
   }
   .hero-panels {
     flex-direction: column;
@@ -889,6 +932,21 @@ footer .panel-right {
     width: auto;
     padding: 3rem;
     align-items: center;
+  }
+  .main-intro .intro-text {
+    max-width: 80vw;
+  }
+  .banner-mia img {
+    width: 120px;
+  }
+  .banner__title {
+    margin-top: 3rem;
+  }
+  .banner-recup .circular-text {
+    top: 60%;
+  }
+  .banner-ocupar .h2 {
+    font-size: 2rem;
   }
   .que-hacemos .panel-right {
     align-items: stretch;
