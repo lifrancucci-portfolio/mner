@@ -887,9 +887,6 @@ footer .panel-right {
   .banner__overlay {
     padding-top: 5rem;
   }
-  .subpage-modular {
-    height: auto;
-  }
   .recoop.subpage-modular {
     height: 80vh;
   }
@@ -897,6 +894,7 @@ footer .panel-right {
 
 /* ------------- TABLET PORTRAIT DOWN ------------- */
 @media screen and (max-width: 900px) {
+  /* GENERALES */
   body {
     font-size: 18px;
   }
@@ -909,6 +907,12 @@ footer .panel-right {
     padding: 0 2rem;
     width: auto;
   }
+  footer .panel-left {
+    padding: .5rem 0;
+  }
+  footer .panel-right {
+    padding: .5rem 0 .5rem 3rem;
+  }
   .footer__logo {
     width: 250px;
   }
@@ -918,6 +922,7 @@ footer .panel-right {
   .footer-panel .footer-subtitle {
     display: none;
   }
+  /* HERO */
   .hero-panels {
     flex-direction: column;
     padding: 1rem;
@@ -933,6 +938,7 @@ footer .panel-right {
     padding: 3rem;
     align-items: center;
   }
+  /* HOME */
   .main-intro .intro-text {
     max-width: 80vw;
   }
@@ -948,17 +954,9 @@ footer .panel-right {
   .banner-ocupar .h2 {
     font-size: 2rem;
   }
+  /* QUÉ HACEMOS */
   .que-hacemos .panel-right {
     align-items: stretch;
-  }
-  .donde-estamos .hero-panels {
-    align-items: center;
-  }
-  .donde-estamos .panel-lower .lower-title {
-    margin-bottom: 1rem;
-  }
-  .donde-estamos .panel-lower .lower-list {
-    width: auto;
   }
   .subpage-modular {
     flex-direction: column;
@@ -976,6 +974,23 @@ footer .panel-right {
   .logo-recoop {
     display: none;
   }
+  /* DÓNDE ESTAMOS */
+  .donde-estamos .hero-panels {
+    align-items: center;
+  }
+  .donde-estamos .panel-lower .lower-title {
+    margin-bottom: 1rem;
+  }
+  .donde-estamos .panel-lower .lower-list {
+    width: auto;
+  }
+  /* QUIÉNES SOMOS */
+  /* --> GALERIA */
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+  /* --> HISTORIA */
   .timeline-event {
     flex-direction: column;
     align-items: flex-start;
@@ -1174,7 +1189,7 @@ footer .panel-right {
   }
   /* --> GALERIA */
   .galeria {
-    width: 100vw;
+    /* width: 100vw; */
     padding: .5rem;
     grid-template-columns: repeat(1, 1fr);
   }
